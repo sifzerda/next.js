@@ -1,5 +1,7 @@
 # next.js
 
+DEPLOY ON VERCEL, KEEP FRONT-END
+
 create new next app:
 
 ```bash
