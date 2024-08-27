@@ -1,11 +1,10 @@
 # next.js
 
-
-
 create new next app:
 
+```bash
 npx create-next-app@latest my-next-app (replace my-next-app with app title)
-
+```
 
 tech used:
 
@@ -13,8 +12,10 @@ tech used:
 - ESLint
 - Tailwind
 
-
 Routing in Next.js:
+
+[next.js routing/page docs](https://nextjs.org/docs/app/building-your-application/routing/pages)
+
 - You don't have to set up routes. Routes in Next.js is file/page-based. If the file and page structure is correct, it'll create the route. Make a folder inside src (or 'pages') folder and copy page.js into each folder. Add Link to each page 
 Each page route is /'folder-name'. 
 
@@ -38,8 +39,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
