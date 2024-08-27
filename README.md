@@ -14,6 +14,11 @@ tech used:
 - Tailwind
 
 
+Routing in Next.js:
+- You don't have to set up routes. Routes in Next.js is file/page-based. If the file and page structure is correct, it'll create the route. Make a folder inside src (or 'pages') folder and copy page.js into each folder. Add Link to each page 
+Each page route is /'folder-name'. 
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
